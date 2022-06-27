@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/alpaca-image-generator-angular
     docker:
-      - image: cimg/node:16.15.1-browsers
+      - image: cimg/node:16.15.1
     steps:
       - checkout
       - restore_cache:
