@@ -46,7 +46,7 @@ module.exports = function (config) {
     logLevel: config.LOG_ERROR,
     autoWatch: true,
     singleRun: true,
-    browserNoActivityTimeout: 40000,
+    browserNoActivityTimeout: 60000,
     restartOnFileChange: true
   });
 };
