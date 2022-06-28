@@ -13,4 +13,4 @@ jobs:
           key: alpaca-image-generator-angular-{{ .Branch }}-{{ checksum "package-lock.json" }}
           paths:
             - "node_modules"
-      - run: npm run test --wach=false --browsers=ChromeHeadlessCI
+      - run: ng test --wach=false --browsers=ChromeHeadlessCI
