@@ -45,7 +45,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_ERROR,
     autoWatch: true,
-    singleRun: true,
+    singleRun: false,
     browserNoActivityTimeout: 60000,
     restartOnFileChange: true
   });
