@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-6">
+    <!-- Preview  -->
+    <div class="alpacaPreview" [ngSwitch]="selection.value">
+      <pre *ngSwitchDefault>all acccessories</pre>
+      <pre *ngSwitchCase="'Hair'">Hair</pre>
+      <pre *ngSwitchCase="'Ears'">Ears</pre>
+      <pre *ngSwitchCase="'Eyes'">Eyes</pre>
+      <pre *ngSwitchCase="'Mouth'">Mouth</pre>
+      <pre *ngSwitchCase="'Neck'">Neck</pre>
+      <pre *ngSwitchCase="'Accessories'">Accessories</pre>
+      <pre *ngSwitchCase="'Background'">Background</pre>
+    </div>
+    <!-- End Prevew -->
+  </div>
+  <div class="col-6">
+    <!-- Toggles -->
+    <input type="hidden" #selection>
+    <h4>ACCESORIZE THE ALPACA'S</h4>
+    <div class="card-container">
+      <button *ngFor="let accessory of accessories" class="card card-small" (click)="selection.value = accessory "
+        tabindex="0">
+        <span>{{accessory}}</span>
+      </button>
+    </div>
+    <!-- End toggles-->
+  </div>
+</div>

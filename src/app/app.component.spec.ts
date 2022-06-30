@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Alpaca-Image-Generator-Angular'`, () => {
+  it(`should have as title 'Alpaca Image Generator'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Alpaca-Image-Generator-Angular');
+    expect(app.title).toEqual('Alpaca Image Generator');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Alpaca-Image-Generator-Angular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Alpaca Image Generator app is running!');
   });
 });
