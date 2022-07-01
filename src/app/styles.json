@@ -1,0 +1,23 @@
+[{
+    "id": 0,
+    "feature": "Hair",
+    "styles": {
+      "Default": "../assets/images/hair/default.png",
+      "Curls": "../assets/images/hair/curls.png",
+      "Short": "../assets/images/hair/short.png",
+      "Bang": "../assets/images/hair/bang.png",
+      "Elegant": "../assets/images/hair/elegant.png",
+      "Quiff": "../assets/images/hair/quiff.png",
+      "Fancy": "../assets/images/hair/fancy.png"
+    }
+  },
+  {
+    "id": 1,
+    "feature": "Ears",
+    "styles": {
+      "Default": "../assets/images/ears/default.png",
+      "Tilt Backward": "../assets/images/ears/tilt-backward.png",
+      "Tilt Forward": "../assets/images/ears/tilt-forward.png"
+    }
+  }
+]

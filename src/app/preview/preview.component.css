@@ -1,0 +1,52 @@
+#preview-container {
+  position: relative;
+  border-radius: 6px;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(31, 31, 188);
+}
+
+img {
+  min-width: 0;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.accessory {
+  position: absolute;
+  z-index: 4;
+}
+
+.ear {
+  position: absolute;
+}
+
+.hair {
+  position: absolute;
+  z-index: 2;
+}
+
+.neck {
+  position: absolute;
+  z-index: 1;
+}
+
+.nose {
+  position: absolute;
+  z-index: 3;
+}
+
+.eye {
+  position: absolute;
+  z-index: 3;
+}
+
+.mouth {
+  position: absolute;
+  z-index: 4;
+}
+
+.leg {
+  position: absolute;
+  z-index: 3;
+}

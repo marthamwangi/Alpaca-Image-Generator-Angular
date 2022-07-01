@@ -19,7 +19,7 @@ The following GIF shows one way to implement the UI. Feel free to interpret the 
 
 &#9745; Prepare your preferred front end stack: in this caseAngular.
 
-&#9744; Create an alpaca (image) preview UI
+&#9745; Create an alpaca (image) preview UI
 
 &#9744; Add list of buttons for customizing your alpaca (image)
 

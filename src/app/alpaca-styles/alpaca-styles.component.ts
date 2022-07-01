@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-alpaca-styles',
@@ -6,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./alpaca-styles.component.css']
 })
 export class AlpacaStylesComponent implements OnInit {
-  styles: string[] = ['Default', 'Curls', 'Short', 'Bang', 'Elegant', 'Quiff'];
-
+  @Input() loadStyle: string[] = [];
   constructor() { }
 
   ngOnInit(): void {
